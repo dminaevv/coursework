@@ -1,0 +1,3 @@
+D:\Projects\Minaev\obj\EFConfigurator\Debug\EFConfigurator.csproj.AssemblyReference.cache
+D:\Projects\Minaev\obj\EFConfigurator\Debug\EFConfigurator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Minaev\obj\EFConfigurator\Debug\EFConfigurator.csproj.CoreCompileInputs.cache

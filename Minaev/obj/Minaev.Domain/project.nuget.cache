@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VI6z8HC3d76I8rH2SmEt2dgKs6TSQ6rcuHW+8PMRaQh8A1As85jlNHPs5rAdNBHF5WM14rK1B++ODxwFDBkXZg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Minaev\\src\\Minaev.Domain\\Minaev.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

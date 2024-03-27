@@ -1,0 +1,582 @@
+[
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.AccountController",
+    "Method": "GetInfo",
+    "RelativePath": "api/Account/Me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.AccountController",
+    "Method": "SignIn",
+    "RelativePath": "api/Account/SignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRequest",
+        "Type": "Minaev.WebAPI.Controllers.AccountController\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.AccountController",
+    "Method": "SignOut",
+    "RelativePath": "api/Account/SignOut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.AccountController",
+    "Method": "SignUp",
+    "RelativePath": "api/Account/SignUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRequest",
+        "Type": "Minaev.WebAPI.Controllers.AccountController\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.AccountController",
+    "Method": "Update",
+    "RelativePath": "api/Account/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRequest",
+        "Type": "Minaev.WebAPI.Controllers.AccountController\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminAccountController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/Admin/Account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "start",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminAccountController",
+    "Method": "CreateAccount",
+    "RelativePath": "api/Admin/Account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountBlank",
+        "Type": "Minaev.Domain.Accounts.AccountBlank",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminAccountController",
+    "Method": "GetUserInfo",
+    "RelativePath": "api/Admin/Account/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminAccountController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Admin/Account/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "accountBlank",
+        "Type": "Minaev.Domain.Accounts.AccountBlank",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminAccountController",
+    "Method": "DeleteAccount",
+    "RelativePath": "api/Admin/Account/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminRentController",
+    "Method": "CreateRent",
+    "RelativePath": "api/Admin/Rent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blank",
+        "Type": "Minaev.Domain.Rents.RentBlank",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminRentController",
+    "Method": "UpdateRent",
+    "RelativePath": "api/Admin/Rent/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "blank",
+        "Type": "Minaev.Domain.Rents.RentBlank",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminRentController",
+    "Method": "GetRentInfo",
+    "RelativePath": "api/Admin/Rent/{rentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminRentController",
+    "Method": "DeleteRent",
+    "RelativePath": "api/Admin/Rent/{rentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminRentController",
+    "Method": "CompleteTransportRent",
+    "RelativePath": "api/Admin/Rent/End/{rentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Minaev.WebAPI.Controllers.Admin.AdminRentController\u002BCompleteRentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminTranstorController",
+    "Method": "GetTransports",
+    "RelativePath": "api/Admin/Transport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "start",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "transportType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminTranstorController",
+    "Method": "CreateTransport",
+    "RelativePath": "api/Admin/Transport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blank",
+        "Type": "Minaev.Domain.Transports.TransportBlank",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminTranstorController",
+    "Method": "GetTransportInfo",
+    "RelativePath": "api/Admin/Transport/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminTranstorController",
+    "Method": "UpdateTransport",
+    "RelativePath": "api/Admin/Transport/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "blank",
+        "Type": "Minaev.Domain.Transports.TransportBlank",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminTranstorController",
+    "Method": "DeleteTransport",
+    "RelativePath": "api/Admin/Transport/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminRentController",
+    "Method": "GetTransportRentHistory",
+    "RelativePath": "api/Admin/TransportHistory/{transportId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transportId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.Admin.AdminRentController",
+    "Method": "GetUserRentHistory",
+    "RelativePath": "api/Admin/UserHistory/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.PaymentController",
+    "Method": "IncreaseBalance",
+    "RelativePath": "api/Payment/Hesoyam/{accountId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.RentController",
+    "Method": "GetRentInfo",
+    "RelativePath": "api/Rent/{rentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.RentController",
+    "Method": "CompletionTransportRent",
+    "RelativePath": "api/Rent/End/{rentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Minaev.WebAPI.Controllers.RentController\u002BTransportRentCompletionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.RentController",
+    "Method": "GetClientRentHistory",
+    "RelativePath": "api/Rent/MyHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.RentController",
+    "Method": "RentTransport",
+    "RelativePath": "api/Rent/New/{transportId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transportId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "rentType",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.RentController",
+    "Method": "GetAvailableForRentTransport",
+    "RelativePath": "api/Rent/Transport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lat",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "long",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "radius",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.RentController",
+    "Method": "GetTransportRentHistory",
+    "RelativePath": "api/Rent/TransportHistory/{transportId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transportId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.TransportController",
+    "Method": "AddTransport",
+    "RelativePath": "api/Transport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blank",
+        "Type": "Minaev.Domain.Transports.TransportBlank",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.TransportController",
+    "Method": "GetTransportInfo",
+    "RelativePath": "api/Transport/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.TransportController",
+    "Method": "EditTransport",
+    "RelativePath": "api/Transport/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "blank",
+        "Type": "Minaev.Domain.Transports.TransportBlank",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Minaev.WebAPI.Controllers.TransportController",
+    "Method": "DeleteTransport",
+    "RelativePath": "api/Transport/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

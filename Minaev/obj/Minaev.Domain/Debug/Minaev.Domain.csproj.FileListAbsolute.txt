@@ -1,0 +1,3 @@
+D:\Projects\Minaev\obj\Minaev.Domain\Debug\Minaev.Domain.csproj.AssemblyReference.cache
+D:\Projects\Minaev\obj\Minaev.Domain\Debug\Minaev.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Minaev\obj\Minaev.Domain\Debug\Minaev.Domain.csproj.CoreCompileInputs.cache

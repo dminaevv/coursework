@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Minaev.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Minaev.WebAPI.Controllers.AccountController.GetInfo">
+            <summary>
+            получение данных о текущем аккаунте
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.AccountController.SignIn(Minaev.WebAPI.Controllers.AccountController.UserRequest)">
+            <summary>
+            получение нового jwt токена пользователя
+            </summary>
+            <param name="userRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.AccountController.SignUp(Minaev.WebAPI.Controllers.AccountController.UserRequest)">
+            <summary>
+             регистрация нового аккаунта
+            </summary>
+            <param name="userRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.AccountController.SignOut">
+            <summary>
+            выход из аккаунт
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.AccountController.Update(Minaev.WebAPI.Controllers.AccountController.UserRequest)">
+            <summary>
+             обновление своего аккаунта
+            </summary>
+            <param name="userRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminAccountController.GetAccounts(System.Int32,System.Int32)">
+            <summary>
+            Получение списка всех аккаунтов
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminAccountController.GetUserInfo(System.String)">
+            <summary>
+            Получение информации об аккаунте по id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminAccountController.CreateAccount(Minaev.Domain.Accounts.AccountBlank)">
+            <summary>
+            Создание администратором нового аккаунта
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminAccountController.UpdateUser(System.String,Minaev.Domain.Accounts.AccountBlank)">
+            <summary>
+            Изменение администратором аккаунта по id
+            </summary>
+            <param name="accountBlank"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminAccountController.DeleteAccount(System.String)">
+            <summary>
+             Удаление аккаунта по id
+            </summary>
+            <param name="userBlank"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminRentController.GetRentInfo(System.String)">
+            <summary>
+            Получение информации по аренде по id
+            </summary>
+            <param name="start"></param>
+            <param name="count"></param>
+            <param name="transportType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminRentController.GetUserRentHistory(System.String)">
+            <summary>
+            Получение истории аренд пользователя с id={userId}
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminRentController.GetTransportRentHistory(System.String)">
+            <summary>
+            Получение истории аренд транспорта с id={transportId}
+            </summary>
+            <param name="rentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminRentController.CreateRent(Minaev.Domain.Rents.RentBlank)">
+            <summary>
+             Создание новой аренды
+            </summary>
+            <param name="transportId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminRentController.CompleteTransportRent(System.String,Minaev.WebAPI.Controllers.Admin.AdminRentController.CompleteRentRequest)">
+            <summary>
+            Завершение аренды транспорта по id аренды
+            </summary>
+            <param name="blank"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminRentController.UpdateRent(System.String,Minaev.Domain.Rents.RentBlank)">
+            <summary>
+            Изменение записи об аренде по id
+            </summary>
+            <param name="blank"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminRentController.DeleteRent(System.String)">
+            <summary>   
+            Удаление информации об аренде по id
+            </summary>
+            <param name="rentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminTranstorController.GetTransports(System.Int32,System.Int32,System.String)">
+            <summary>
+            Получение списка всех транспортных средств
+            </summary>
+            <param name="start"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminTranstorController.GetTransportInfo(System.String)">
+            <summary>
+            Получение информации о транспортном средстве по id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminTranstorController.CreateTransport(Minaev.Domain.Transports.TransportBlank)">
+            <summary>
+            Создание нового транспортного средства
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.Admin.AdminTranstorController.UpdateTransport(System.String,Minaev.Domain.Transports.TransportBlank)">
+            <summary>
+            Изменение транспортного средства по id
+            </summary>
+            <param name="blank"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.PaymentController.IncreaseBalance(System.String)">
+            <summary>
+             Добавляет на баланс аккаунта с id={accountId} 250 000 денежных единиц
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.RentController.GetAvailableForRentTransport(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            Получение транспорта доступного для аренды по параметрам
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.RentController.GetRentInfo(System.String)">
+            <summary>
+            Получение информации об аренде по id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.RentController.GetClientRentHistory">
+            <summary>
+            Получение истории аренд текущего аккаунта
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.RentController.GetTransportRentHistory(System.String)">
+            <summary>
+            Получение истории аренд транспорта
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.RentController.RentTransport(System.String,System.String)">
+            <summary>
+             Аренда транспорта в личное пользование
+            </summary>
+            <param name="transportId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.RentController.CompletionTransportRent(System.String,Minaev.WebAPI.Controllers.RentController.TransportRentCompletionRequest)">
+            <summary>
+            Завершение аренды транспорта по id аренды
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.TransportController.GetTransportInfo(System.String)">
+            <summary>
+             Получение информации о транспорте по id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.TransportController.AddTransport(Minaev.Domain.Transports.TransportBlank)">
+            <summary>
+            Добавление нового транспорта
+            </summary>
+            <param name="blank"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.TransportController.EditTransport(System.String,Minaev.Domain.Transports.TransportBlank)">
+            <summary>
+             Изменение транспорта оп id
+            </summary>
+            <param name="id"></param>
+            <param name="blank"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minaev.WebAPI.Controllers.TransportController.DeleteTransport(System.String)">
+            <summary>
+            Удаление транспорта по id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,4 @@
+D:\Projects\Minaev\src\Minaev.WebAPI\obj\Release\Minaev.WebAPI.csproj.AssemblyReference.cache
+D:\Projects\Minaev\src\Minaev.WebAPI\obj\Release\Minaev.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Minaev\src\Minaev.WebAPI\obj\Release\Minaev.WebAPI.csproj.CoreCompileInputs.cache
+D:\Projects\Minaev\src\Minaev.WebAPI\obj\Release\Minaev.WebAPI.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <History>True|2024-03-19T10:00:35.1000435Z;True|2023-10-30T10:03:50.7911301+03:00;True|2023-10-30T09:49:07.6410678+03:00;True|2023-10-30T09:48:09.1863130+03:00;True|2023-10-30T09:41:10.4860603+03:00;True|2023-10-30T09:38:16.2126497+03:00;True|2023-10-30T09:36:50.5244114+03:00;True|2023-10-30T09:33:40.3014054+03:00;True|2023-10-29T22:48:41.8852439+03:00;True|2023-10-29T22:45:22.8100886+03:00;True|2023-10-29T21:18:38.7421371+03:00;True|2023-10-29T21:12:15.5268784+03:00;False|2023-10-29T21:12:05.5131544+03:00;True|2023-10-29T21:08:43.4411342+03:00;False|2023-10-29T21:06:27.9933478+03:00;False|2023-10-29T21:05:56.5184844+03:00;False|2023-10-29T21:03:34.5424336+03:00;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>C:\Users\denis\Desktop\Курсач\Minaev\src\Minaev.WebAPI\bin\Debug\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>

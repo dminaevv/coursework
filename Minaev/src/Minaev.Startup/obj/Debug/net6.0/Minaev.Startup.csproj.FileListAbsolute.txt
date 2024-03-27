@@ -1,0 +1,15 @@
+E:\Projects\Minaev\src\Minaev.Startup\bin\Debug\net6.0\Minaev.Startup.deps.json
+E:\Projects\Minaev\src\Minaev.Startup\bin\Debug\net6.0\Minaev.Startup.dll
+E:\Projects\Minaev\src\Minaev.Startup\bin\Debug\net6.0\Minaev.Startup.pdb
+E:\Projects\Minaev\src\Minaev.Startup\bin\Debug\net6.0\Minaev.Services.Configurator.dll
+E:\Projects\Minaev\src\Minaev.Startup\bin\Debug\net6.0\Minaev.Services.Configurator.pdb
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\Minaev.Startup.csproj.AssemblyReference.cache
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\Minaev.Startup.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\Minaev.Startup.AssemblyInfoInputs.cache
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\Minaev.Startup.AssemblyInfo.cs
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\Minaev.Startup.csproj.CoreCompileInputs.cache
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\Minaev.Startup.csproj.CopyComplete
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\Minaev.Startup.dll
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\refint\Minaev.Startup.dll
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\Minaev.Startup.pdb
+E:\Projects\Minaev\src\Minaev.Startup\obj\Debug\net6.0\ref\Minaev.Startup.dll

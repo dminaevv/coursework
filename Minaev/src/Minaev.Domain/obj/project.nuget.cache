@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "N5Rr+zd/yZV4hRUXNabcflT9/evo95KCrEdtLNxN1nMMpqSssGhE2DI+uSXN0Bv1QTqPzy7Jr8B2KOD9JiSt2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\denis\\Desktop\\Курсач\\Minaev\\src\\Minaev.Domain\\Minaev.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
